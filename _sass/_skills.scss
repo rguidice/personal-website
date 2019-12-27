@@ -7,8 +7,8 @@
         margin: 0;
         font-size: 18px;
     }
-
-    &:before{
+/* To get rid of percentage bars in skills page */
+/*    &:before{
         width: 100%;
         height: 5px;
         content: "";
@@ -16,7 +16,7 @@
         position: absolute;
         background: $light;
         bottom: 0;
-    }
+    }*/
 }
 
 .skill-bar {

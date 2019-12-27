@@ -7,12 +7,27 @@ weight: 1
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hi I am **{{ site.author.name }}**.<br>
+
+<p>Welcome to my website!</p>
+
+<p>I am currently a computer engineering student at Colorado State University.</p>
+
+<p>Outside of my studies, I enjoy soccer, photography/videography, and working on personal projects (such as this site).</p>
+
+<p>The purpose of this website is to serve as a hub for my professional and personal endeavors. You can review an updated blog of whatever I’m working on in the <a href="http://localhost:4000/projects/">Projects</a> section.</p>
+
+<p>I have experience with Java, Python, HTML/CSS, batch and bash scripting, assembly, Git and Matlab. My current workflow mainly uses the Atom text editor, along with Eclipse for Java development and Anaconda for Python development. I have also used Quartus II for logic design, Keil uVision for microprocessor and the Windows deployment kit, WinPE and Hyper-V for Windows image capture and deployment.</p>
+
+<p>I also have experience using Wordpress, Adobe Photoshop, Premiere and Lightroom for creative endeavors.</p>
+
+<h5><strong><center>Full resume available upon request.</center></strong></h5>
+<br>
+
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Programming Skills:" source=site.data.programming-skills %}
+{% include about/skills.html title="Other Skills:" source=site.data.other-skills %}
 </div>
 
 <div class="row">

@@ -3,9 +3,10 @@
     {% for skill in include.source %}
       <div class="skill">
         <p>{{ skill.name }}</p>
-        <div class="skill-bar skill-bar-{{ skill.color }} skill-{{ skill.percentage }} wow animated slideInLeft" data-wow-delay="{{ forloop.index | divided_by: 20.0 }}">
-          <span>{{ skill.percentage }}%</span>
-        </div>
+        <!-- To get rid of percentage bars in skills page -->
+<!--        <div class="skill-bar skill-bar-{{ skill.color }} skill-{{ skill.percentage }} wow animated slideInLeft" data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"> -->
+<!--          <span>{{ skill.percentage }}%</span> -->
+<!--        </div> -->
       </div>
     {% endfor %}
 </div>
