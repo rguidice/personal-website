@@ -2,6 +2,14 @@
   percentage: 95
   color: info
 
-- name: Adobe Illustrator
+- name: Adobe Premiere
+  percentage: 90
+  color: success
+
+- name: Adobe Lightroom
+  percentage: 90
+  color: success
+
+- name: WordPress
   percentage: 90
   color: success
