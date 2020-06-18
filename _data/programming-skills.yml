@@ -2,9 +2,13 @@
   percentage: 90
   color: danger
 
+- name: C++
+  percentage: 90
+  color: dark
+
 - name: Java
   percentage: 80
-  color:
+  color: dark
 
 - name: Git
   percentage: 70

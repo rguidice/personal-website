@@ -11,7 +11,7 @@ baseurl             : ""                    # subpath of your site (e.g. /blog) 
 ### Author Info ###
 author:
   name              : Ryan Guidice
-  image             : https://ryanguidice.com/wp-content/uploads/2018/11/ryan12.jpg
+  image             : ../assets/ryan12.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : ryan@ryanguidice.com
@@ -49,7 +49,7 @@ author:
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /projects/:name.html
 
 
 ### Defaults for collections ###

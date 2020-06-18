@@ -7,7 +7,7 @@ weight: 1
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}**.<br>
+Hi, I am **{{ site.author.name }}**.<br>
 
 <p>Welcome to my website!</p>
 
@@ -21,7 +21,7 @@ Hi I am **{{ site.author.name }}**.<br>
 
 <p>I also have experience using Wordpress, Adobe Photoshop, Premiere and Lightroom for creative endeavors.</p>
 
-<h5><strong><center>Full resume available upon request.</center></strong></h5>
+<h5><strong><center><a href="mailto:ryan@ryanguidice.com">Full resume available upon request.</a></center></strong></h5>
 <br>
 
 

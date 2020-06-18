@@ -1,12 +1,23 @@
 - title: Student, Colorado State University
+  school: true
   from: 2018
   to: Present
   major: Computer Engineering
-  GPA: 3.866
+  GPA: 3.87
   gradDate: 2022
+  location: Fort Collins, CO
   description:
 
-- title: Computer Engineering Intern, Verus Research, Albuquerque, NM
+- title: Enterprise Storage Tools and Metrics Engineering Intern, Hewlett Packard Enterprise
+  school: false
+  location: Fort Collins, CO
+  from: May 2020
+  to: Present
+  description:
+
+- title: Computer Engineering Intern, Verus Research
+  school: false
+  location: Albuquerque, NM
   from: May 2019
   to: August 2019
-  description:
+  description: Developed a Python package focused around emulating Matlab plotting functionality to rapidly process and visualize data. <br>Tested Unity development projects and fixed bugs that contributed towards large Git repositories.
