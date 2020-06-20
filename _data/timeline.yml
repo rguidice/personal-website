@@ -6,7 +6,8 @@
   GPA: 3.87
   gradDate: 2022
   location: Fort Collins, CO
-  description:
+  # adding quotes ("") around description escapes the ':' indicator character
+  description: "IEEE: President (2020-present), Undergraduate Liaison and Webmaster (2018-2020)"
 
 - title: Enterprise Storage Tools and Metrics Engineering Intern, Hewlett Packard Enterprise
   school: false
@@ -20,4 +21,5 @@
   location: Albuquerque, NM
   from: May 2019
   to: August 2019
-  description: Developed a Python package focused around emulating Matlab plotting functionality to rapidly process and visualize data. <br>Tested Unity development projects and fixed bugs that contributed towards large Git repositories.
+  # using unicode character U+2022 (•) as bullet point
+  description: • Developed a Python package focused around emulating Matlab plotting functionality to rapidly process and visualize data. <br>• Tested Unity development projects and fixed bugs that contributed towards large Git repositories.

@@ -1,0 +1,22 @@
+Overall:
+    Start the local server (127.0.0.1:4000) to see changes on refresh:
+    bundle exec jekyll serve --watch
+
+    Change social media links and homepage information:
+    ~\_config.yml
+
+    Change social media icons, colors and base links:
+    ~\_data\social-media.yml
+
+About Page:
+    Change About Me text section:
+    ~\pages\about.md
+
+    Change programming skills list:
+    ~\_data\programming-skills.yml
+
+    Change other skills list:
+    ~\_data\other-skills.yml
+
+    Change school and employment timeline:
+    ~\_data\timeline.yml
