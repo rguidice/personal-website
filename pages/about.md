@@ -17,7 +17,7 @@ Hi, I am **{{ site.author.name }}**.<br>
 
 <p>The purpose of this website is to serve as a hub for my professional and personal endeavors. You can review an updated blog of whatever I’m working on in the <a href="http://localhost:4000/projects/">Projects</a> section.</p>
 
-<p>I have experience with Java, Python, HTML/CSS, batch and bash scripting, assembly, Git and Matlab. My current workflow mainly uses the Atom text editor, along with Eclipse for Java development and Anaconda for Python development. I have also used Quartus II for logic design, Keil uVision for microprocessor assembly development and the Windows deployment kit, WinPE and Hyper-V for Windows image capture and deployment.</p>
+<p>I have experience with C++, Java, Python, HTML/CSS, batch and bash scripting, assembly, Git and Matlab. My current workflow mainly uses the Atom text editor, along with Eclipse for Java development and Anaconda for Python development. I have also used Quartus II for logic design, Keil uVision for microprocessor assembly development and the Windows deployment kit, WinPE and Hyper-V for Windows image capture and deployment.</p>
 
 <p>I also have experience using Wordpress, Adobe Photoshop, Premiere and Lightroom for creative endeavors.</p>
 
