@@ -70,3 +70,5 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  - "Website Documentation.txt"
+  - "Website Backups"

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Computer Engineering Student at Colorado State University">
+
+  <title>Ryan Guidice</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+  <a class="navbar-brand" href="/"><h5><b>Ryan Guidice</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      
+      
+        
+      
+        
+      
+        
+          
+            <a class="nav-item nav-link " href=" /about/ ">About</a>
+          
+        
+      
+        
+          
+            <a class="nav-item nav-link  active " href=" /projects/ ">Projects</a>
+          
+        
+      
+    </div>
+  </div>
+
+</nav>
+
+  <div class="col-lg-10 mx-auto mt-5 article">
+  <h1 id="raspberry-pi-home-backup-server">Raspberry Pi Home Backup Server:</h1>
+<h3 id="an-experiment-in-cheap-network-storage">An Experiment in Cheap Network Storage</h3>
+<p><br />
+After dealing with multiple hardware swaps on my personal PC and some situations that could’ve led to data loss, I decided that it would be worth it to invest in a backup solution for my family. At the same time, I was experimenting with the (at the time) brand-new Raspberry Pi Model 3. I figured that there was likely a decent way to create a home backup server using the raspberry pi as a network and data controller, and possibly attach an external hard drive as data storage.</p>
+
+<p><a href="https://www.howtogeek.com/139433/how-to-turn-a-raspberry-pi-into-a-low-power-network-storage-device/">This</a> excellent article from How-To Geek helped me get started and oriented with all of the potential ways to pursue this idea. I ended up going down a similar path as them, with some changes to reflect my use-case.</p>
+
+<p>First, I set up a fresh install of Raspbian on the pi and started configuring the hard drive. For a more budget-oriented solution, I went with a 2tb external HDD from WD (<a href="https://www.2brightsparks.com/freeware/freeware-hub.html">this one I believe</a>). Since I had two computers who would be making routine backups to this drive, I initially went to partition the drive into two sections. After some thought though, I decided to partition it into three sections:</p>
+
+<ul>
+  <li>1tb for my parent’s machine</li>
+  <li>750gb for my machine</li>
+  <li>250gb for network storage</li>
+</ul>
+
+<p>By doing it this way, I would allow myself 250gb of space to keep on the network to mess around with. This has come in handy when transferring files between machines (no more need for a USB drive back and forth, just toss it on the network drive) and media hosting as well.</p>
+
+<p>From here, I installed Samba to enable the drive to be used over the network. After configuring the setup to match my standard for credentials and security, I was ready to test everything. I immediately hit a rough spot, where I was having trouble discerning where specific password changes were reflected within the network setup.</p>
+
+<p>After some research into how Samba actually works, I was able to figure out that I was totally wrong about how my assumptions into what passwords were used where, and I had to redo quite a bit of the installation to ensure nothing was improperly configured.</p>
+
+<p>Finally I had everything ready to use, and data could be transferred back and forth over the network. But now, how should I backup many different folders over time and control these backups? This could easily get very convoluted and messy. Luckily I found a program called <a href="https://www.2brightsparks.com/freeware/freeware-hub.html">SyncBack</a> that supported exactly what I needed. On top of options for selecting individual files and folders, it also supports scheduling backups.</p>
+
+<p>After configuration, my parent’s PC now backs up to the drive every night, over the network. Since I don’t leave my PC on all the time, I just backup whenever I remember, which has worked very well so far. We now have a second copy of any data that is important in hand at any time, and due to the nature of the setup, the backups are entirely readable without any other help. The drive, if needed, could be unplugged and used as a normal USB external hard drive to pull off any data needed very easily.</p>
+
+<p>This project was great because I was able to continue experimenting with raspberry pi’s, all while learning how Samba and network drive configuration works. Now, my family doesn’t have to worry about any potential data loss issues, and it is accomplished with a low-power, cheap and easy to configure option.</p>
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <div class="container-fluid justify-content-center">
+
+  
+
+  
+
+    
+    
+      
+
+    
+    
+      
+
+    
+    
+
+    
+    <a class="social mx-1"  href="mailto:ryan@ryanguidice.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#146cea'"
+       onMouseOut="this.style.color='#6c757d'"
+       target="_blank">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a>
+
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://keybase.io/rguidice"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fe6f21'"
+       onMouseOut="this.style.color='#6c757d'"
+       target="_blank">
+      <i class="fab fa-keybase fa-1x"></i>
+    </a>
+
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.github.com/rguidice"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'"
+       target="_blank">
+      <i class="fab fa-github fa-1x"></i>
+    </a>
+
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.hackerrank.com/rguidice"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#29ba5d'"
+       onMouseOut="this.style.color='#6c757d'"
+       target="_blank">
+      <i class="fab fa-hackerrank fa-1x"></i>
+    </a>
+
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.linkedin.com/in/ryan-guidice"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'"
+       target="_blank">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.youtube.com/channel/UCE0AKfUToUvpM9nwPGESQ_g/"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'"
+       target="_blank">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a>
+
+  
+
+</div>
+
+
+  <small class="text-muted mb-2">
+    © Ryan Guidice 2020<br>
+    Based on the <a href="https://youssefraafatnasry.github.io/portfolYOU/">portfulYOU</a> theme
+    by <a href="https://youssefraafatnasry.github.io/">YoussefRaafatNasry</a>
+  </small>
+
+</footer>
+
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Card Animation jQuery -->
+<script src="/assets/js/card-animation.js"></script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+
+</html>
