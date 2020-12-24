@@ -3,7 +3,7 @@
   from: 2018
   to: Present
   major: Computer Engineering
-  GPA: 3.87
+  GPA: 3.864
   gradDate: 2022
   location: Fort Collins, CO
   # adding quotes ("") around description escapes the ':' indicator character
@@ -13,7 +13,7 @@
   school: false
   location: Fort Collins, CO
   from: May 2020
-  to: Present
+  to: December 2020
   description: • Managed the migration of an outdated Artifactory instance to an updated instance on a new server. <br>• Developed several Python scripts to assist with the Artifactory migration and automate a syncing process between the two instances.
 
 - title: Computer Engineering Intern, Verus Research
