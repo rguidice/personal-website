@@ -1,3 +1,15 @@
+- name: Cadence Virtuoso
+  percentage: 95
+  color: info
+
+- name: Quartus Prime
+  percentage: 95
+  color: info
+
+- name: Keil uVision5
+  percentage: 95
+  color: info
+
 - name: Adobe Photoshop
   percentage: 95
   color: info
