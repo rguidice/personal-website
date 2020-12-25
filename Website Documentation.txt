@@ -22,7 +22,7 @@ Overall:
     Change social media icons, colors and base links:
     ~\_data\social-media.yml
 
-About Page:
+About Page:	
     Change About Me text section:
     ~\pages\about.md
 
@@ -34,3 +34,10 @@ About Page:
 
     Change school and employment timeline:
     ~\_data\timeline.yml
+
+Custom Page HTML and CSS:
+    Change page HTML in:
+    ~\_includes
+
+    Change page CSS in:
+    ~\_sass
