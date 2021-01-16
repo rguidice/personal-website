@@ -41,3 +41,7 @@ Custom Page HTML and CSS:
 
     Change page CSS in:
     ~\_sass
+
+Footer:
+    Change footer text in:
+    ~\_includes\footer.html
