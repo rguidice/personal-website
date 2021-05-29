@@ -11,15 +11,15 @@ Hi, I am **{{ site.author.name }}**.<br>
 
 <p>Welcome to my website!</p>
 
-<p>I am currently a third-year computer engineering student at Colorado State University.</p>
+<p>I am currently a fourth-year computer engineering student at Colorado State University.</p>
 
 <p>Outside of my studies, I enjoy soccer, photography/videography, and working on personal projects (such as this site).</p>
 
 <p>The purpose of this website is to serve as a hub for my professional and personal endeavors. You can review an updated blog of whatever I’m working on in the <a href="https://ryanguidice.com/projects/">Projects</a> section.</p>
 
-<p>I have experience with C++, Java, Python, HTML/CSS, batch and bash scripting, assembly, Git and Matlab. My current workflow mainly uses the Atom text editor, along with Eclipse for Java development and Anaconda for big Python projects. I have also used Quartus Prime and Quartus II for logic design, Keil uVision for microprocessor assembly development and the Windows deployment kit, WinPE and Hyper-V for Windows image capture and deployment.</p>
+<p>I have experience with Python, Java, C/C++, Verilog, HTML/CSS, batch and bash scripting, assembly, Matlab and Git. My current workflow mainly uses the Atom text editor, along with Eclipse for Java development and Anaconda for big Python projects. I have also used Quartus Prime and Quartus II for logic design, Keil uVision for microprocessor assembly development and the Windows deployment kit, WinPE and Hyper-V for Windows image capture and deployment.</p>
 
-<p>I also have experience using Wordpress, Adobe Photoshop, Premiere and Lightroom for creative endeavors.</p>
+<p>I also have experience using Wordpress and Adobe Photoshop, Premiere and Lightroom for creative endeavors.</p>
 
 <h5><strong><center><a href="mailto:ryan@ryanguidice.com">Full resume available upon request.</a></center></strong></h5>
 <br>

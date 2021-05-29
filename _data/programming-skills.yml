@@ -2,7 +2,7 @@
   percentage: 90
   color: danger
 
-- name: C++
+- name: C/C++
   percentage: 90
   color: dark
 

@@ -3,11 +3,18 @@
   from: 2018
   to: Present
   major: Computer Engineering
-  GPA: 3.864
-  gradDate: 2022
+  GPA: 3.887
+  gradDate: May 2022
   location: Fort Collins, CO
   # adding quotes ("") around description escapes the ':' indicator character
-  description: "IEEE: President (2020-present), Undergraduate Liaison and Webmaster (2018-2020) <br>• Adapted organization to continue its work despite COVID-19 pandemic forcing operations online. <br>• Organized virtual meetings with up to 30 participants and coordinated marketing strategies."
+  description: "IEEE: Treasurer (2021-Present), President (2020-2021), Undergraduate Liaison and Webmaster (2018-2020) <br>• Adapted organization to continue its work despite COVID-19 pandemic forcing operations online. <br>• Organized virtual meetings with up to 30 participants and coordinated marketing strategies."
+
+- title: VLSI Design and Verification Intern, Seagate
+  school: false
+  location: Longmont, CO
+  from: May 2021
+  to: Present
+  description:
 
 - title: Enterprise Storage Tools and Metrics Engineering Intern, Hewlett Packard Enterprise
   school: false
