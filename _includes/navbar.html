@@ -9,6 +9,9 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
       {% assign pages = site.html_pages | sort: 'weight' %}
+      <!-- Just a hacky way to inserting the social media links here -->
+      {% include social.html %}
+      <!--  -->
       {% for site_page in pages %}
         {% if site_page.title %}
           {% unless site_page.url contains 'page' or site_page.url contains 'tags' %}
