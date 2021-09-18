@@ -7,21 +7,21 @@
   gradDate: May 2022
   location: Fort Collins, CO
   # adding quotes ("") around description escapes the ':' indicator character
-  description: "IEEE: Treasurer (2021-Present), President (2020-2021), Undergraduate Liaison and Webmaster (2018-2020) <br>• Adapted organization to continue its work despite COVID-19 pandemic forcing operations online. <br>• Organized virtual meetings with up to 30 participants and coordinated marketing strategies."
+  description: "• IEEE: President (2020 – 2021), Treasurer (2021 - Present), Undergraduate Liaison (2018 – 2020) <br>• Member of the Honors College, and member of the Tau Beta Pi and Eta Kappa Nu honor societies <br>• IEEE Computer Society Richard E. Merwin Scholar and Student Ambassador (2021 – present)"
 
 - title: VLSI Design and Verification Intern, Seagate
   school: false
   location: Longmont, CO
   from: May 2021
   to: Present
-  description:
+  description: • Developed a Linux application, API, and driver in C for streamlining FPGA interfacing via PCIe <br>• Debugged RISC-V implementation through UVM register model generation and designing UVM test sequences <br>• Designed an IRQ combinational block using SystemVerilog
 
 - title: Enterprise Storage Tools and Metrics Engineering Intern, Hewlett Packard Enterprise
   school: false
   location: Fort Collins, CO
   from: May 2020
   to: December 2020
-  description: • Managed the migration of an outdated Artifactory instance to an updated instance on a new server. <br>• Developed several Python scripts to assist with the Artifactory migration and automate a syncing process between the two instances.
+  description: • Managed the migration of an outdated Artifactory instance to an updated instance on a new server <br>• Developed several Python scripts to assist with the Artifactory migration and automate a syncing process between the two instances
 
 - title: Computer Engineering Intern, Verus Research
   school: false
@@ -29,4 +29,4 @@
   from: May 2019
   to: August 2019
   # using unicode character U+2022 (•) as bullet point
-  description: • Developed a Python package focused around emulating Matlab plotting functionality to rapidly process and visualize data. <br>• Tested Unity development projects and fixed bugs that contributed towards large Git repositories.
+  description: • Developed a Python package focused around emulating Matlab plotting functionality to rapidly process and visualize data <br>• Debugged several VR environment development projects based in Unity

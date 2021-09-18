@@ -1,24 +1,28 @@
 - name: Python
   percentage: 90
-  color: danger
+  color: dark
 
 - name: C/C++
   percentage: 90
+  color: dark
+
+- name: Verilog/SystemVerilog
+  percentage: 90
+  color: dark
+
+- name: UVM
+  percentage: 80
   color: dark
 
 - name: Java
   percentage: 80
   color: dark
 
-- name: Verilog
-  percentage: 70
-  color: dark
-
 - name: Matlab
   percentage: 70
   color: dark
 
-- name: Assembly
+- name: ARM Assembly
   percentage: 70
   color: dark
 

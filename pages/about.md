@@ -17,7 +17,7 @@ Hi, I am **{{ site.author.name }}**.<br>
 
 <p>The purpose of this website is to serve as a hub for my professional and personal endeavors. You can review an updated blog of whatever I’m working on in the <a href="https://ryanguidice.com/projects/">Projects</a> section.</p>
 
-<p>I have experience with Python, Java, C/C++, Verilog, HTML/CSS, batch and bash scripting, assembly, Matlab and Git. My current workflow mainly uses the Atom text editor, along with Eclipse for Java development and Anaconda for big Python projects. I have also used Quartus Prime and Quartus II for logic design, Keil uVision for microprocessor assembly development and the Windows deployment kit, WinPE and Hyper-V for Windows image capture and deployment.</p>
+<p>I have experience with Python, Java, C/C++, Verilog/SystemVerilog, UVM, HTML/CSS, batch and bash scripting, assembly, Matlab and Git. My current workflow mainly uses the Atom text editor, along with Eclipse for Java development and Anaconda for big Python projects. I have also used Quartus Prime and Quartus II for logic design, Keil uVision for ARM microprocessor assembly development and the Windows deployment kit, WinPE and Hyper-V for Windows image capture and deployment.</p>
 
 <p>I also have experience using Wordpress and Adobe Photoshop, Premiere and Lightroom for creative endeavors.</p>
 

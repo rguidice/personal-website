@@ -1,8 +1,16 @@
+- name: Quartus Prime
+  percentage: 95
+  color: info
+
 - name: Cadence Virtuoso
   percentage: 95
   color: info
 
-- name: Quartus Prime
+- name: Synopsys Verdi
+  percentage: 95
+  color: info
+
+- name: Vivado
   percentage: 95
   color: info
 
@@ -10,22 +18,18 @@
   percentage: 95
   color: info
 
-- name: Adobe Photoshop
+- name: Artifactory
   percentage: 95
   color: info
-
-- name: Adobe Premiere
-  percentage: 90
-  color: success
-
-- name: Adobe Lightroom
-  percentage: 90
-  color: success
-
-- name: WordPress
-  percentage: 90
-  color: success
 
 - name: 3D Printing
   percentage: 90
   color: success
+
+- name: Beginner PCB Design in EAGLE
+  percentage: 90
+  color: success
+
+- name: Adobe Suite
+  percentage: 95
+  color: info
