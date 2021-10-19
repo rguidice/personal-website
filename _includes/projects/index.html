@@ -52,15 +52,12 @@
     {% assign project_github = project.github %}
     {% assign project_blog = project.blog %}
 
-    {% if project.external_url %}
-      {% assign project_url = project.external_url %}
-    {% else %}
-      {% assign project_url = project.url | relative_url %}
-    {% endif %}
-
+    <!-- Assign project_url based on blog setting in project markdown file -->
     {% if project.blog == 1 %}
+      <!-- Use manually-set project.url (maybe?) or internal blog site -->
       {% assign project_url = project.url | relative_url %}
     {% else %}
+      <!-- Set to false to skip creation of link icon -->
       {% assign project_url = False %}
     {% endif %}
 

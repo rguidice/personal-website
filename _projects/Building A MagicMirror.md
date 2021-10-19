@@ -1,7 +1,7 @@
 ---
 name: Building a MagicMirror
 tools: [Raspberry Pi, MagicMirror, Bash]
-image: https://ryanguidice.com/assets/project_images/Building_a_MagicMirror/MagicMirror%20Final%20Product.JPG
+image: /assets/project_images/Building_a_MagicMirror/magicmirror_final_product.JPG
 blog: 1
 description: A fun project and cool gift!
 ---
@@ -17,14 +17,14 @@ As noted in other projects on this site, I have always had an extreme admiration
 We started by ordering a Raspberry Pi 3, installing the MagicMirror package onto it and configuring a basic setup for it. Next, we ordered a used monitor off of Ebay, so we had something to drive the MagicMirror output to. Once the monitor arrived, we stripped down all of the plastic housing around it and kept just the panel, display controller and power components. Once measurements were taken, I ordered a piece of one-way acrylic mirror from [TAP Plastics](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/two_way_mirrored_acrylic/558) that would be reflective on the front and serve as a mirror, but also allow the light from the monitor to shine through the back. Once all of these components arrived and were ready, it was time to start working on a wooden frame to house it all.
 
 <p align="center">
-	<img src="https://ryanguidice.com/assets/project_images/Building_a_MagicMirror/Under_Panel.jpg">
+	<img src="/assets/project_images/Building_a_MagicMirror/under_panel.JPG">
 	<center> Underneath the monitor panel. </center>
 </p>
 
 The majority of the credit for the wooden housing has to go to my grandfather, who put together an amazing frame that not only perfectly fit the monitor and acrylic panel, but also had room for the Raspberry Pi and power inputs. To top it all off, he even designed the back panel in such a way that it was modular enough to easily access most of the internal components without disassembling the entire frame. I was blown away by the level of craftsmenship that was put into the frame design, and am certainly very grateful to have such an awesome grandfather.
 
 <p align="center">
-	<img src="https://ryanguidice.com/assets/project_images/Building_a_MagicMirror/Rear_Interior.jpg">
+	<img src="/assets/project_images/Building_a_MagicMirror/rear_interior.JPG">
 	<center> Back of the unit with the access panel removed. </center>
 </p>
 
@@ -33,6 +33,6 @@ After the wooden housing was done, I put some finishing touches on the MagicMirr
 Overall, this was an incredibly fun project and ended up being a great gift. I learned a lot about physical design considerations while building it, and am very happy with how the final product turned out.
 
 <p align="center">
-	<img src="https://ryanguidice.com/assets/project_images/Building_a_MagicMirror/MagicMirror%20Final%20Product.JPG">
+	<img src="/assets/project_images/Building_a_MagicMirror/magicmirror_final_product.JPG">
 	<center> Finished product! </center>
 </p>

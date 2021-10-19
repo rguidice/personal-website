@@ -1,7 +1,7 @@
 ---
 name: Raspberry Pi Home Backup Server
 tools: [Raspberry Pi, SyncBack]
-image: https://ryanguidice.com/assets/project_images/Raspberry_Pi_Home_Backup_Server/Raspberry%20Pi%20Home%20Backup%20Server.PNG
+image: /assets/project_images/Raspberry_Pi_Home_Backup_Server/raspberry_pi_home_backup_server.PNG
 blog: 1
 description: An experiment in cheap network storage.
 ---
