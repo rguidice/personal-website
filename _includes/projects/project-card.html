@@ -15,6 +15,13 @@
       <!-- Display project description -->
       <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
 
+      <!-- Display project tools -->
+      <p id="{{ project_id }}-tools" class="card-text">
+        {% for tool in project_tools %}
+        <span class="badge badge-pill text-primary border border-primary">{{ tool }}</span>
+        {% endfor %}
+      </p>
+
       <!-- Display project icons and links -->
       {% if project_github %}
         <a id="{{ project_id }}-github" class="card-text"  href="{{ project_github }}"
@@ -39,14 +46,6 @@
         </a>
       {% endif %}
 
-
-      <!-- Display project tools -->
-      <p id="{{ project_id }}-tools" class="card-text">
-        {% for tool in project_tools %}
-        <span class="badge badge-pill text-primary border border-primary">{{ tool }}</span>
-        {% endfor %}
-      </p>
-      
     </div>
   </div>
 </div>

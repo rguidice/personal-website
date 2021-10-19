@@ -43,7 +43,7 @@
       {% continue %}
     {% endif %}
 
-    <!-- Get all project values from project markdown file -->
+    <!-- Get all project values from project markdown files -->
     {% assign project_id    =  project.name | slugify %}
     {% assign project_img   = project.image %}
     {% assign project_name  = project.name %}
@@ -52,11 +52,16 @@
     {% assign project_github = project.github %}
     {% assign project_blog = project.blog %}
 
-    
     {% if project.external_url %}
       {% assign project_url = project.external_url %}
     {% else %}
       {% assign project_url = project.url | relative_url %}
+    {% endif %}
+
+    {% if project.blog == 1 %}
+      {% assign project_url = project.url | relative_url %}
+    {% else %}
+      {% assign project_url = False %}
     {% endif %}
 
 

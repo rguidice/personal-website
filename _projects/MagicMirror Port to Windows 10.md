@@ -2,7 +2,9 @@
 name: MagicMirror Port to Windows 10
 tools: [Raspberry Pi, Bash]
 image: https://ryanguidice.com/assets/project_images/MagicMirror_Port_to_Windows_10/MagicMirror%20Port%20to%20Windows%2010.JPG
-description: Migrating a Linux tool to a Windows environment
+blog: 1
+github: https://github.com/rguidice/MagicMirror-Win10V2
+description: Migrating a Linux tool to a Windows environment.
 ---
 # MagicMirror Port to Windows 10:
 ### Migrating a Linux tool to a Windows environment
