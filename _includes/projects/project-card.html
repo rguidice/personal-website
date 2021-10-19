@@ -1,21 +1,52 @@
 <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="{{ project_url }}" class="project card text-dark">
+  <div class="project card text-dark">
     {% if project_img %}
     <img id="{{ project_id }}-img" class="card-img-top" src="{{ project_img }}" alt="{{ project_name }}" />
     {% endif %}
     <div class="card-body">
+      <!-- Display project heading -->
       <h5 id="{{ project_id }}-name" class="card-title">
           {% if project_type == "remote" %}
           <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |
           {% endif %}
         {{ project_name }}
       </h5>
+
+      <!-- Display project description -->
       <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
+
+      <!-- Display project icons and links -->
+      {% if project_github %}
+        <a id="{{ project_id }}-github" class="card-text"  href="{{ project_github }}"
+          style="color: #333333"
+          target="_blank"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          data-delay="250"
+          title="GitHub Repository">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      {% endif %}
+      {% if project_url %}
+        <a id="{{ project_id }}-url" class="card-text"  href="{{ project_url }}"
+        style="color: #333333"
+        target="_blank"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        data-delay="250"
+        title="Blog Post">
+        <i class="fas fa-external-link-alt fa-2x"></i>
+        </a>
+      {% endif %}
+
+
+      <!-- Display project tools -->
       <p id="{{ project_id }}-tools" class="card-text">
         {% for tool in project_tools %}
         <span class="badge badge-pill text-primary border border-primary">{{ tool }}</span>
         {% endfor %}
       </p>
+      
     </div>
-  </a>
+  </div>
 </div>
