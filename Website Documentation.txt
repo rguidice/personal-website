@@ -45,3 +45,13 @@ Custom Page HTML and CSS:
 Footer:
     Change footer text in:
     ~\_includes\footer.html
+
+Projects:
+    Add project:
+    copy ~\_projects\template.md, modify and save
+
+    Adjust projects card (how projects are graphically displayed):
+    ~\_includes\project-card.html
+
+    Adjust Jekyll project YAML conversion and data setup:
+    ~\_includes\index.html
