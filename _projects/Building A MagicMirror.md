@@ -1,5 +1,6 @@
 ---
 name: Building a MagicMirror
+project_date: May 2018
 tools: [Raspberry Pi, MagicMirror, Bash]
 image: /assets/project_images/Building_a_MagicMirror/magicmirror_final_product.JPG
 blog: 1

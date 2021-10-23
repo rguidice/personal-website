@@ -1,5 +1,6 @@
 ---
 name: Smart Blinds Machine
+project_date: May 2021
 tools: [Python, Raspberry Pi]
 image: /assets/project_images/Smart_Blinds_Machine/project_diagram.JPG
 blog: 1

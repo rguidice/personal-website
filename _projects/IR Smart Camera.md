@@ -1,5 +1,6 @@
 ---
 name: IR Smart Camera
+project_date: October 2019
 tools: [Assembly, Python, Raspberry Pi, IR Sensor]
 image: /assets/project_images/IR_Smart_Camera/project.JPG
 blog: 1

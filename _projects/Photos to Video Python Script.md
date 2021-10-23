@@ -1,5 +1,6 @@
 ---
 name: Photos to Video Python Script
+project_date: January 2021
 tools: [Python, OpenCV2]
 image: 
 github: https://github.com/rguidice/photos2video
