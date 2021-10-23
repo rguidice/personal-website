@@ -34,36 +34,39 @@
   {% endfor %}
 
   <!-- Local Projects -->
-  {% for project in site.projects %}
 
-    {% assign project_type  = "local" %}
+  <!-- Sort projects by date -->
+  {% assign sorted = site.projects | sort: 'date' | reverse %}
+  
+  {% for project in sorted %}
 
-    <!-- Skip over template in projects folder -->
-    {% if project.name == "template" %}
-      {% continue %}
-    {% endif %}
+      {% assign project_type  = "local" %}
 
-    <!-- Get all project values from project markdown files -->
-    {% assign project_id    =  project.name | slugify %}
-    {% assign project_img   = project.image %}
-    {% assign project_name  = project.name %}
-    {% assign project_date  = project.project_date %}
-    {% assign project_desc  = project.description %}
-    {% assign project_tools = project.tools %}
-    {% assign project_github = project.github %}
-    {% assign project_blog = project.blog %}
+      <!-- Skip over template in projects folder -->
+      {% if project.name == "template" %}
+        {% continue %}
+      {% endif %}
 
-    <!-- Assign project_url based on blog setting in project markdown file -->
-    {% if project.blog == 1 %}
-      <!-- Use manually-set project.url (maybe?) or internal blog site -->
-      {% assign project_url = project.url | relative_url %}
-    {% else %}
-      <!-- Set to false to skip creation of link icon -->
-      {% assign project_url = False %}
-    {% endif %}
+      <!-- Get all project values from project markdown files -->
+      {% assign project_id    =  project.name | slugify %}
+      {% assign project_img   = project.image %}
+      {% assign project_name  = project.name %}
+      {% assign project_date  = project.date %}
+      {% assign project_desc  = project.description %}
+      {% assign project_tools = project.tools %}
+      {% assign project_github = project.github %}
+      {% assign project_blog = project.blog %}
 
+      <!-- Assign project_url based on blog setting in project markdown file -->
+      {% if project.blog == 1 %}
+        <!-- Use manually-set project.url (maybe?) or internal blog site -->
+        {% assign project_url = project.url | relative_url %}
+      {% else %}
+        <!-- Set to false to skip creation of link icon -->
+        {% assign project_url = False %}
+      {% endif %}
 
-    {% include projects/project-card.html %}
+      {% include projects/project-card.html %}
 
   {% endfor %}
 

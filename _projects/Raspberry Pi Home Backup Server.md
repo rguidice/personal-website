@@ -1,6 +1,6 @@
 ---
 name: Raspberry Pi Home Backup Server
-project_date: March 2018
+date: 2018-03-16
 tools: [Raspberry Pi, SyncBack]
 image: /assets/project_images/Raspberry_Pi_Home_Backup_Server/raspberry_pi_home_backup_server.PNG
 blog: 1

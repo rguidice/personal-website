@@ -1,9 +1,10 @@
 ---
 name: Smart Blinds Machine
-project_date: May 2021
+date: 2021-05-16
 tools: [Python, Raspberry Pi]
 image: /assets/project_images/Smart_Blinds_Machine/project_diagram.JPG
 blog: 1
+sticky: true
 github: https://github.com/rguidice/smart-blinds
 description: Smart blinds built using a stepper motor and a Raspberry Pi.
 ---

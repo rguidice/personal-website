@@ -1,6 +1,6 @@
 ---
 name: MagicMirror Network Troubleshooter
-project_date: January 2020
+date: 2020-01-16
 tools: [Bash]
 image: 
 github: https://github.com/rguidice/mm-network-troubleshooter

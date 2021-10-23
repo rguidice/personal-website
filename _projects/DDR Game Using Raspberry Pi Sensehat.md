@@ -1,6 +1,6 @@
 ---
 name: DDR Game Using Raspberry Pi Sense HAT
-project_date: January 2021
+date: 2021-01-16
 tools: [Python, Raspberry Pi, Sense HAT]
 image: 
 github: https://github.com/rguidice/sensehat-ddr

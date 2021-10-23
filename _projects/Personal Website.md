@@ -1,6 +1,6 @@
 ---
 name: Personal Website
-project_date: June 2020
+date: 2020-06-16
 tools: [Jekyll]
 image: 
 github: https://github.com/rguidice/personal-website

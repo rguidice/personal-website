@@ -1,6 +1,6 @@
 ---
 name: MagicMirror Port to Windows 10
-project_date: August 2018
+date: 2018-08-16
 tools: [Raspberry Pi, Bash]
 image: /assets/project_images/MagicMirror_Port_to_Windows_10/magicmirror_port_to_windows_10.JPG
 blog: 1

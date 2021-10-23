@@ -1,9 +1,10 @@
 ---
 name: IR Smart Camera
-project_date: October 2019
+date: 2019-10-16
 tools: [Assembly, Python, Raspberry Pi, IR Sensor]
 image: /assets/project_images/IR_Smart_Camera/project.JPG
 blog: 1
+sticky: true
 github: https://github.com/rguidice/ir-smart-cam
 description: Smart security camera built using an IR sensor, a Tiva TM4C123GH6PM Microcontroller, a USB webcam, and a Raspberry Pi.
 ---
