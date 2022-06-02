@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Ryan Guidice
 description         : >-                               # >- means to ignore newlines until "url:"
-                      Computer Engineering Student at Colorado State University
+                      Verification Engineer at NVIDIA
 
 url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
