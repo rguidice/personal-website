@@ -24,7 +24,7 @@ Overall:
 
 About Page:	
     Change About Me text section:
-    ~\pages\about.md
+    ~\_includes\about\pages\about.html
 
     Change programming skills list:
     ~\_data\programming-skills.yml
