@@ -1,19 +1,27 @@
+- title: Upcoming - Verification Engineer, NVIDIA
+  school: false
+  location: Santa Clara, CA
+  from: July 2022
+  to: 
+  description: 
+
 - title: Student, Colorado State University
   school: true
-  from: 2018
-  to: Present
+  from: August 2018
+  to: May 2022
   major: Computer Engineering
-  GPA: 3.9
-  gradDate: May 2022
+  minor: Computer Science
+  GPA: 3.911 - Magna Cum Laude
+  #gradDate: May 2022
   location: Fort Collins, CO
   # adding quotes ("") around description escapes the ':' indicator character
-  description: "• IEEE: President (2020 – 2021), Treasurer (2021 - Present), Undergraduate Liaison (2018 – 2020) <br>• Member of the Honors College, and member of the Tau Beta Pi and Eta Kappa Nu honor societies <br>• IEEE Computer Society Richard E. Merwin Scholar and Student Ambassador (2021 – present)"
+  description: "• Honors College graduate<br>• IEEE: President (2020 – 2021), Treasurer (2021 - 2022), Undergraduate Liaison (2018 – 2020) <br>• IEEE Computer Society Richard E. Merwin Scholar and Student Ambassador (2021 – 2022)<br>• Member of the Tau Beta Pi and Eta Kappa Nu honor societies"
 
 - title: VLSI Design and Verification Intern, Seagate
   school: false
   location: Longmont, CO
   from: May 2021
-  to: Present
+  to: May 2022
   description: • Developed a Linux application, API, and driver in C for streamlining FPGA interfacing via PCIe <br>• Debugged RISC-V implementation through UVM register model generation and designing UVM test sequences <br>• Designed an IRQ combinational block using SystemVerilog
 
 - title: Enterprise Storage Tools and Metrics Engineering Intern, Hewlett Packard Enterprise

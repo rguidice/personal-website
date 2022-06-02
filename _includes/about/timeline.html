@@ -10,22 +10,22 @@
 
           {% if item.school == true %}
             {% if item.major %}
-                <h6 class="major">Major: {{item.major}}</h6>
+                <h6 class="major"><b>Major:</b> {{item.major}}</h6>
+            {% endif %}
+            {% if item.minor %}
+                <h6 class="major"><b>Minor:</b> {{item.minor}}</h6>
             {% endif %}
             {% if item.GPA %}
-                <h6 class="major">GPA: {{item.GPA}}</h6>
-            {% endif %}
-            {% if item.gradDate %}
-                <h6 class="major">Intended Graduation: {{item.gradDate}}</h6>
+                <h6 class="major"><b>GPA:</b> {{item.GPA}}</h6>
             {% endif %}
             {% if item.location %}
-                <h6 class="major">Location: {{item.location}}</h6>
+                <h6 class="major"><b>Location:</b> {{item.location}}</h6>
             {% endif %}
           {% endif %}
 
           {% if item.school == false %}
             {% if item.location %}
-                <h6 class="major">Location: {{item.location}}</h6>
+                <h6 class="major"><b>Location:</b> {{item.location}}</h6>
             {% endif %}
           {% endif %}
 
