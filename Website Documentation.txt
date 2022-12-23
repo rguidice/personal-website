@@ -8,7 +8,7 @@ Overall:
     Upload website to web server:
         1. Build website again
         2. Check ~\_site to make sure all files in there look good and there aren't any extra
-        3. Use Filezilla and quickconnect to ryanguidice.com with username and password from HostGator CPanel account at port 22
+        3. Use Filezilla and quickconnect to ryanguidice.com with username and password from Hostinger FTP account
         4. Navigate to ~\_site locally and /rguidice/public_html on the server
             * If you want to backup the old site, navigate to backup location locally and copy all files from /public_html to there
         5. Copy all files from ~\_site to /public_html

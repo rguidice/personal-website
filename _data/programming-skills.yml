@@ -26,14 +26,6 @@
   percentage: 70
   color: dark
 
-- name: Batch and Bash Scripting
-  percentage: 70
-  color: dark
-
 - name: HTML/CSS
-  percentage: 70
-  color: dark
-
-- name: Git
   percentage: 70
   color: dark

@@ -1,12 +1,12 @@
-- name: Quartus Prime
-  percentage: 95
-  color: info
-
 - name: Cadence Virtuoso
   percentage: 95
   color: info
 
 - name: Synopsys Verdi
+  percentage: 95
+  color: info
+
+- name: Quartus Prime
   percentage: 95
   color: info
 
@@ -23,10 +23,6 @@
   color: info
 
 - name: 3D Printing
-  percentage: 90
-  color: success
-
-- name: Beginner PCB Design in EAGLE
   percentage: 90
   color: success
 
