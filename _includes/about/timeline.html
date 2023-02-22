@@ -7,25 +7,19 @@
           <h2>{{ item.title }}</h2>
 
           <h5 class="date">{{ item.from }} — {{ item.to }}</h5>
-
-          {% if item.school == true %}
-            {% if item.major %}
-                <h6 class="major"><b>Major:</b> {{item.major}}</h6>
-            {% endif %}
-            {% if item.minor %}
-                <h6 class="major"><b>Minor:</b> {{item.minor}}</h6>
-            {% endif %}
-            {% if item.GPA %}
-                <h6 class="major"><b>GPA:</b> {{item.GPA}}</h6>
-            {% endif %}
-            {% if item.location %}
-                <h6 class="major"><b>Location:</b> {{item.location}}</h6>
-            {% endif %}
+          {% if item.location %}
+              <h5 class="date">{{item.location}}</h5>
           {% endif %}
 
-          {% if item.school == false %}
-            {% if item.location %}
-                <h6 class="major"><b>Location:</b> {{item.location}}</h6>
+          {% if item.school == true %}  
+            {% if item.major %}
+              <h6 class="major"><b>Major:</b> {{item.major}}</h6>
+            {% endif %}
+            {% if item.minor %}
+              <h6 class="major"><b>Minor:</b> {{item.minor}}</h6>
+            {% endif %}
+            {% if item.GPA %}
+              <h6 class="major"><b>GPA:</b> {{item.GPA}}</h6>
             {% endif %}
           {% endif %}
 
