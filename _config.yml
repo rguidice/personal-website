@@ -11,7 +11,7 @@ baseurl             : ""                    # subpath of your site (e.g. /blog) 
 ### Author Info ###
 author:
   name              : Ryan Guidice
-  image             : ../assets/ryan12.jpg
+  image             : ../assets/guidice_ryan.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : ryan@ryanguidice.com

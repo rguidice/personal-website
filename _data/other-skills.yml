@@ -1,12 +1,8 @@
+- name: Synopsys VCS and Verdi
+  percentage: 95
+  color: info
+
 - name: Cadence Virtuoso
-  percentage: 95
-  color: info
-
-- name: Synopsys Verdi
-  percentage: 95
-  color: info
-
-- name: Quartus Prime
   percentage: 95
   color: info
 
@@ -14,7 +10,7 @@
   percentage: 95
   color: info
 
-- name: Keil uVision5
+- name: Quartus Prime
   percentage: 95
   color: info
 

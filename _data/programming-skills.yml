@@ -1,3 +1,7 @@
+- name: Verilog/SystemVerilog (with UVM)
+  percentage: 90
+  color: dark
+
 - name: Python
   percentage: 90
   color: dark
@@ -6,12 +10,8 @@
   percentage: 90
   color: dark
 
-- name: Verilog/SystemVerilog
-  percentage: 90
-  color: dark
-
-- name: UVM
-  percentage: 80
+- name: HTML/CSS
+  percentage: 70
   color: dark
 
 - name: Java
@@ -23,9 +23,5 @@
   color: dark
 
 - name: ARM Assembly
-  percentage: 70
-  color: dark
-
-- name: HTML/CSS
   percentage: 70
   color: dark
